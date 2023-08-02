@@ -27,8 +27,7 @@ local z = {
   orange = "#FF8700",
   yellow = "#f7bb3b",
   lignt_orange = "#fab795",
-  green = "#afd700",
-  -- #a8eb44
+  green = "#a8eb44",
   dark_green = "#98be65",
   cyan = "#36d0e0",
   blue = "#61afef",
