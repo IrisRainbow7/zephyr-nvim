@@ -80,9 +80,9 @@ local syntax = {
   CursorIM = { bg = z.none, reverse = true },
   CursorColumn = { bg = z.bg_highlight },
   CursorLine = { bg = z.bg_highlight },
-  LineNr = { fg = z.fg },
-  LineAbove = { fg = z.base5 },
-  LineBelow = { fg = z.base5 },
+  LineNr = { fg = z.bracket },
+  LineNrAbove = { fg = z.base5 },
+  LineNrBelow = { fg = z.base5 },
   qfLineNr = { fg = z.cyan },
   CursorLineNr = { fg = z.blue },
   DiffAdd = { fg = z.black, bg = z.dark_green },
@@ -171,6 +171,9 @@ local plugin_syntax = {
   ["@type"] = { fg = z.teal },
   ["@variable"] = { fg = "#f2f2bf" },
   ["@punctuation.bracket"] = { fg = z.bracket },
+
+  ["@tag"] = { fg = z.dark_green },
+  ["@tag.attribute"] = { fg = z.orange },
 
   vimCommentTitle = { fg = z.grey, bold = true },
   vimLet = { fg = z.orange },
